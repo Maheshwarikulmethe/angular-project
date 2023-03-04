@@ -1,0 +1,136 @@
+{
+  "user1": [
+    {
+      "Country": "India",
+      "LeagueName": "I-League",
+      "MatchName": "Sudeva Delhi Vs NEROCA",
+      "KickOffUtc": "3/1/2023 8:30:00 AM" 
+    }
+  ],
+
+   "user2":[ 
+    {  
+    "Country":"Bahrain",
+    "LeagueName":"Bahrain Premier League",
+    "MatchName":"Al Hidd Vs Sitra",
+    "KickOffUtc":"3/1/2023 3:30:00 PM"
+  }
+  ],
+ 
+  "user3":[ 
+    {   
+    "Country":"Egypt",
+    "LeagueName":"Premiership (EGY)",
+    "MatchName":"Pharco Vs El Mokawloon",
+    "KickOffUtc":"3/1/2023 4:00:00 PM"
+  }
+  ],
+
+  "user4":[ 
+    {   
+    "Country":"Romania",
+    "LeagueName":"Liga 1 (Romania)",
+    "MatchName":"CSU Craiova Vs FC Arges",
+    "KickOffUtc":"3/1/2023 4:00:00 PM"
+  }
+  ],
+  "user5":[ 
+    {   
+    "Country":"Serbia",
+    "LeagueName":"Serbian Prva Liga",
+    "MatchName":"FK Macva Sabac Vs Radnicki Mitrovica",
+    "KickOffUtc":"3/1/2023 4:00:00 PM"
+  }
+  ],
+  "user6":[ 
+    {   
+      "Country":"Serbia",
+      "LeagueName":"Serbian Superliga",
+      "MatchName":"Mladost Lucani Vs Cukaricki",
+      "KickOffUtc":"3/1/2023 5:00:00 PM"
+     
+  }
+  ],
+  "user7":[ 
+    {  
+    "Country":"Guatemala",
+    "LeagueName":"Guatemala Liga Nacional",
+    "MatchName":"Santa Lucia Vs Iztapa",
+    "KickOffUtc":"3/1/2023 5:00:00 PM"
+  }
+  ],
+  
+
+  "MData": [
+    {
+      "MasterMarketId": 1,
+      "MasterMarketName": "MatchOutcome",
+      "MarketId": 1,
+      "MarketName": "MatchOutcome - Home",
+      "selectionValue": 2,
+      "Market": "MatchOutcome",
+      "Outcome":"Home"
+     
+    },
+    {
+      "MasterMarketId": 1,
+      "MasterMarketName": "MatchOutcome",
+      "MarketId": 2,
+      "MarketName": "MatchOutcome - Draw",
+      "selectionValue": 3,
+      "Market": "MatchOutcome - Draw",
+      "Outcome": "Draw"
+      
+    },
+    {
+      "MasterMarketId": "1",
+      "MasterMarketName": "MatchOutcome",
+      "MarketId": "3",
+      "MarketName": "MatchOutcome - Away",
+      "selectionValue": 4,
+      "Market": "MatchOutcome",
+      "Outcome": "Away"
+    },
+    {
+      "MasterMarketId": "2",
+      "MasterMarketName": "HalfTimeResult",
+      "MarketId": "4",
+      "MarketName": "HalfTimeResult - Home",
+      "selectionValue": 5,
+      "Market": "HalfTimeResult",
+      "Outcome":"Home"
+      
+    },
+    {
+      "MasterMarketId": "2",
+      "MasterMarketName": "HalfTimeResult",
+      "MarketId": "5",
+      "MarketName": "HalfTimeResult - Draw",
+      "selectionValue": 6,
+      "Market":"HalfTimeResult",
+      "Outcome":"Draw"
+   
+    },
+    {
+      "MasterMarketId": "2",
+      "MasterMarketName": "HalfTimeResult",
+      "MarketId": "6",
+      "MarketName": "HalfTimeResult - Away",
+      "selectionValue": 7,
+      "Market": "HalfTimeResult",
+      "Outcome": "Away"
+    },
+    {
+      "MasterMarketId": "3",
+      "MasterMarketName": "Goalline",
+      "MarketId": "7",
+      "MarketName": "Goalline - Over 2.5",
+      "selectionValue": 8,
+      "Market": "Goalline",
+      "Outcome": "Over 2.5"
+    }
+  
+  ]
+
+  
+}
