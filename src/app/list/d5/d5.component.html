@@ -1,0 +1,31 @@
+<div class="container-fluid d-flex justify-content-center">
+    <form style="width: 80%;">
+        <div class="card" style="border-style: none;">
+            <div class="card-body text-center">
+                <ul class="list-group list-group-flush" style="border-radius: 10px;">
+                    <li class="list-group-item" style="background-color: #ed3535; color: white;"> Country</li>
+                <tr *ngFor="let item of collection">
+                <li class="list-group-item" style="background-color: #f1eff0; color: black;">{{item.Country}}</li>
+                </tr>
+                <li class="list-group-item" style="background-color: #ed3535; color: white;">LeagueName</li>
+                <tr *ngFor="let item of collection">
+                    <li class="list-group-item" style="background-color: #f1eff0; color: black;">{{item.LeagueName}}</li>
+                 </tr>
+                
+
+                <li class="list-group-item" style="background-color: #ed3535; color: white;">MatchName</li>
+                <tr *ngFor="let item of collection">
+                    <li class="list-group-item" style="background-color: #f1eff0; color: black;">{{item.MatchName}}</li>
+                 </tr>
+               
+
+                <li class="list-group-item" style="background-color: #ed3535; color: white;">KickOffUtc</li>
+                <tr *ngFor="let item of collection">
+                    <li class="list-group-item" style="background-color: #f1eff0; color: black;">{{item.KickOffUtc}}</li>
+                 </tr>
+               
+            </ul>
+        </div>
+    </div>
+</form>
+</div>

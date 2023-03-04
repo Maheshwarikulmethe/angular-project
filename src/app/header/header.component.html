@@ -1,0 +1,24 @@
+<div class="containter-fluid">
+    <nav class="navbar">
+        <div class="container-fluid d-flex justify-content-center" style="background-color: black; color: white;">
+            <h3 style="padding: 10px">
+                Bet Builder Fixture
+            </h3>
+        </div>
+    </nav>
+</div>
+
+<div class="container-fluid text-center">
+    
+    <button type="button" class="btn btn-light" routerLink='d1' style="margin: 10px; border-radius: 20px; background-color: #ED3535; color: white;">{{ date | date:'EE d, MMM'}}</button>
+    
+    <button type="button" class="btn btn-light" routerLink='d2' style="margin: 10px; border-radius: 20px; background-color: #ED3535; color: white;">{{ nextDate | date:'EE d, MMM'}}</button>
+    <button type="button" class="btn btn-light" routerLink='d3' style="margin: 10px; border-radius: 20px; background-color: #ED3535; color: white;">{{ nextDate1 | date:'EE d, MMM'}}</button>
+    <button type="button" class="btn btn-light" routerLink='d4' style="margin: 10px; border-radius: 20px; background-color: #ED3535; color: white;">{{ nextDate2 | date:'EE d, MMM'}}</button>
+    <button type="button" class="btn btn-light" routerLink='d5' style="margin: 10px; border-radius: 20px; background-color: #ED3535; color: white;">{{ nextDate3 | date:'EE d, MMM'}}</button>
+    <button type="button" class="btn btn-light" routerLink='d6' style="margin: 10px; border-radius: 20px; background-color: #ED3535; color: white;">{{ nextDate4 | date:'EE d, MMM'}}</button>
+    <button type="button" class="btn btn-light" routerLink='d7' style="margin: 10px; border-radius: 20px; background-color: #ED3535; color: white;">{{ nextDate5 | date:'EE d, MMM'}}</button>
+   
+</div>
+ 
+<router-outlet></router-outlet>

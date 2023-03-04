@@ -1,0 +1,67 @@
+<div class="containter-fluid">
+    <nav class="navbar">
+        <div class="container-fluid d-flex justify-content-center" style="background-color: black; color: white;">
+            <h3 style="padding: 10px">
+                Bet Builder Fixture
+            </h3>
+        </div>
+    </nav>
+</div>
+<div class="containter-fluid">
+    <nav class="navbar">
+        <div class="container-fluid d-flex justify-content-right" style="background-color: #ed3535; color: white;">
+            <h3 style="padding: 10px">
+                Make It A Bet Builder?
+            </h3>
+        </div>
+    </nav>
+</div>
+
+
+<div class="row justify-content-center">
+    <div class="col-4">
+        <label for="name" style="color: black;"><b>Selection:</b></label>
+        <select [(ngModel)]="selectedMarketName">
+            <option *ngFor="let item of MData ">
+                {{ item.MarketName }}
+            </option>
+
+        </select>
+    </div>
+
+    <div class="col-4">
+        <label for="name" style="color: black;"><b>Leg:</b></label>
+        <select class="ml-3" [(ngModel)]="selectedValue">
+            <option *ngFor="let item of MData">
+                {{ item.selectionValue }}
+            </option>
+        </select>
+    </div>
+</div>
+
+<div class="col align-self-center" style="margin-top: 100px; width: 500px; margin-left: 600px; ">
+            
+    <button (click)="onChange()" class="btn btn-danger" type="button">Display Infomation</button>
+
+         <div class="mt-5 ml-3" *ngIf="isSelected">
+                    <table class="table table-success table-striped" style="border: solid; width: 100px;">
+                        <thead>
+                            <tr>
+                                <th scope="col">Market</th>
+                                <th scope="col">Outcome</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr >
+                                <th>{{this.filtered.Market}} </th>
+                                <th>{{this.filtered.Outcome}}</th>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                
+            </div>
+</div>        
+
+ 
